@@ -7,7 +7,6 @@ from repo import cliente_repo
 
 SECRET_KEY="cae3def7c5c8f5c07613a742c1c5435076ccf0777c259796ad1653c0fd5dfdd7"
 
-
 def hash_senha(senha: str) -> str:
     return hashlib.sha256(senha.encode()).hexdigest()
 
